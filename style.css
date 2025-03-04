@@ -20,10 +20,10 @@ header {
 }
 .container {
   margin: 50px 10px 10px 10px;
-  display: grid;
-  grid-template-areas: "items";
+  display: flex;
+  gap: 40px;
 }
-.items {
+.cards {
   padding: 10px 20px;
   background-color: #ffc0cbed;
   border-radius: 7px;
@@ -34,7 +34,7 @@ header {
   font-weight: 500;
   color: chocolate;
 }
-.items .item {
+.cards .item {
   display: flex;
   border-bottom: 1px solid chocolate;
   padding: 20px 30px 20px 0;
@@ -56,4 +56,34 @@ header {
 }
 .item:last-child {
   border: none;
+}
+.name-payment {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.text-input {
+  position: relative;
+  margin: 20px 0;
+  width: 300px;
+  input {
+    z-index: 1;
+    border-radius: 20px;
+    padding: 8px 20px;
+    border: 1px solid chocolate;
+    outline: none;
+    background-color: inherit;
+    width: 100%;
+  }
+  label {
+    z-index: 2;
+    position: absolute;
+    font-size: 14px;
+    color: chocolate;
+    top: -13px;
+    left: 22px;
+    padding: 0 5px;
+    background-color: #ffc0cbed;
+  }
 }
