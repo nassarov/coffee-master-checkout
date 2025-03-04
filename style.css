@@ -4,6 +4,7 @@
 }
 body {
   font-family: "Open Sans", sans-serif;
+  background-color: #efefef;
 }
 
 header {
@@ -12,7 +13,7 @@ header {
   align-items: center;
   padding: 10px 0;
   color: white;
-  background-color: #422b0b;
+  background-color: #43281c;
   img {
     width: 50px;
     height: 50px;
@@ -31,7 +32,7 @@ header {
 }
 .cards {
   padding: 10px 20px;
-  background-color: #ffc0cbed;
+  background-color: #eee1d5;
   border-radius: 7px;
   box-shadow: 2px 3px 10px 1px #ccc;
   flex: 1;
@@ -76,7 +77,7 @@ header {
 .text-input {
   position: relative;
   margin: 20px 0;
-  width: 300px;
+
   input {
     z-index: 1;
     border-radius: 20px;
@@ -94,15 +95,15 @@ header {
     top: -13px;
     left: 22px;
     padding: 0 5px;
-    background-color: #ffc0cbed;
+    background-color: #eee1d5;
   }
 }
 .ccv {
   width: fit-content;
 }
 .total {
-  width: 300px;
   margin: 80px auto 20px;
+  width: 50%;
 }
 .final-price {
   display: flex;
@@ -110,10 +111,10 @@ header {
 }
 .place-order {
   text-align: center;
-  background-color: #ffc0cbed;
+  background-color: #43281c;
   margin: 0 20px;
   padding: 10px 0;
   border-radius: 20px;
-  color: chocolate;
+  color: #eee1d5;
   cursor: pointer;
 }
