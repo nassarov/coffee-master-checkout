@@ -20,6 +20,10 @@ header {
 }
 .container {
   margin: 50px 10px 10px 10px;
+  gap: 40px;
+}
+.card-container {
+  margin: 50px 10px 10px 10px;
   display: flex;
   gap: 40px;
   flex-wrap: wrap;
@@ -50,13 +54,13 @@ header {
     justify-content: space-between;
     width: 100%;
     .name,
-    .price {
-      font-weight: bold;
-    }
     .desc {
       color: chocolate;
     }
   }
+}
+.price {
+  font-weight: bold;
 }
 .item:last-child {
   border: none;
@@ -95,4 +99,21 @@ header {
 }
 .ccv {
   width: fit-content;
+}
+.total {
+  width: 300px;
+  margin: 80px auto 20px;
+}
+.final-price {
+  display: flex;
+  justify-content: space-between;
+}
+.place-order {
+  text-align: center;
+  background-color: #ffc0cbed;
+  margin: 0 20px;
+  padding: 10px 0;
+  border-radius: 20px;
+  color: chocolate;
+  cursor: pointer;
 }
