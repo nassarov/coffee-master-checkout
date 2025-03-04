@@ -22,12 +22,15 @@ header {
   margin: 50px 10px 10px 10px;
   display: flex;
   gap: 40px;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 .cards {
   padding: 10px 20px;
   background-color: #ffc0cbed;
   border-radius: 7px;
   box-shadow: 2px 3px 10px 1px #ccc;
+  flex: 1;
 }
 .title {
   text-transform: uppercase;
@@ -58,10 +61,12 @@ header {
 .item:last-child {
   border: none;
 }
+
 .name-payment {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  flex: 1;
 }
 
 .text-input {
