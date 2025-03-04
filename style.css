@@ -27,6 +27,7 @@ header {
   padding: 10px 20px;
   background-color: #ffc0cbed;
   border-radius: 7px;
+  box-shadow: 2px 3px 10px 1px #ccc;
 }
 .title {
   text-transform: uppercase;
@@ -79,11 +80,14 @@ header {
   label {
     z-index: 2;
     position: absolute;
-    font-size: 14px;
+    font-size: 13px;
     color: chocolate;
     top: -13px;
     left: 22px;
     padding: 0 5px;
     background-color: #ffc0cbed;
   }
+}
+.ccv {
+  width: fit-content;
 }
