@@ -18,63 +18,80 @@
       />
       <h2>Coffe Masters</h2>
     </header>
-    <section class="container">
-      <div class="cards">
-        <h2 class="title">ITEMS</h2>
-        <div class="item">
-          <div class="qnty">1x</div>
-          <div class="details">
-            <div class="item-desc">
-              <div class="name">Cappuccino</div>
-              <div class="desc">Lite foam</div>
-            </div>
-            <div class="price">$3.35</div>
-          </div>
-        </div>
-        <div class="item">
-          <p class="qnty">1x</p>
-          <div class="details">
-            <div class="item-desc">
-              <p class="name">Cappuccino</p>
-              <div class="desc">
-                <p>Lite foam</p>
-                <p>Double espresso</p>
+    <div class="container">
+      <section class="card-container">
+        <div class="cards">
+          <h2 class="title">ITEMS</h2>
+          <div class="item">
+            <div class="qnty">1x</div>
+            <div class="details">
+              <div class="item-desc">
+                <div class="name">Cappuccino</div>
+                <div class="desc">Lite foam</div>
               </div>
+              <div class="price">$3.35</div>
             </div>
-            <p class="price">$3.85</p>
+          </div>
+          <div class="item">
+            <p class="qnty">1x</p>
+            <div class="details">
+              <div class="item-desc">
+                <p class="name">Cappuccino</p>
+                <div class="desc">
+                  <p>Lite foam</p>
+                  <p>Double espresso</p>
+                </div>
+              </div>
+              <p class="price">$3.85</p>
+            </div>
+          </div>
+          <div class="item">
+            <p class="qnty">2x</p>
+            <div class="details">
+              <div class="item-desc">
+                <p class="name">Croissant</p>
+                <div class="desc"><p>Butter</p></div>
+              </div>
+              <p class="price">$4.5</p>
+            </div>
           </div>
         </div>
-        <div class="item">
-          <p class="qnty">2x</p>
-          <div class="details">
-            <div class="item-desc">
-              <p class="name">Croissant</p>
-              <div class="desc"><p>Butter</p></div>
+        <div class="name-payment">
+          <div class="cards">
+            <h2 class="title">name</h2>
+            <div class="text-input">
+              <label for="name">Name of order</label>
+              <input type="text" name="name" id="name" />
             </div>
-            <p class="price">$4.5</p>
           </div>
+          <div class="cards">
+            <h2 class="title">payment</h2>
+            <div class="text-input">
+              <label for="card-number">Card number</label>
+              <input type="text" name="card-number" id="card-number" />
+            </div>
+            <div class="text-input ccv">
+              <label for="ccv">CCV Number</label>
+              <input type="text" name="ccv" id="ccv" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="total">
+        <div class="final-price">
+          <p>Subtotal:</p>
+          <p>$11.7</p>
+        </div>
+        <div class="final-price">
+          <p>Tax:</p>
+          <p>$0.82</p>
+        </div>
+        <div class="final-price price">
+          <p>Total:</p>
+          <p>$12,52</p>
         </div>
       </div>
-      <div class="name-payment">
-        <div class="cards">
-          <h2 class="title">name</h2>
-          <div class="text-input">
-            <label for="name">Name of order</label>
-            <input type="text" name="name" id="name" />
-          </div>
-        </div>
-        <div class="cards">
-          <h2 class="title">payment</h2>
-          <div class="text-input">
-            <label for="card-number">Card number</label>
-            <input type="text" name="card-number" id="card-number" />
-          </div>
-          <div class="text-input ccv">
-            <label for="ccv">CCV Number</label>
-            <input type="text" name="ccv" id="ccv" />
-          </div>
-        </div>
-      </div>
-    </section>
+      <div class="place-order">Place Order</div>
+    </div>
   </body>
 </html>
