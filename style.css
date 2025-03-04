@@ -18,3 +18,42 @@ header {
     height: 50px;
   }
 }
+.container {
+  margin: 50px 10px 10px 10px;
+  display: grid;
+  grid-template-areas: "items";
+}
+.items {
+  padding: 10px 20px;
+  background-color: #ffc0cbed;
+  border-radius: 7px;
+}
+.title {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  color: chocolate;
+}
+.items .item {
+  display: flex;
+  border-bottom: 1px solid chocolate;
+  padding: 20px 30px 20px 0;
+  .qnty {
+    padding: 0 20px;
+  }
+  .details {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    .name,
+    .price {
+      font-weight: bold;
+    }
+    .desc {
+      color: chocolate;
+    }
+  }
+}
+.item:last-child {
+  border: none;
+}
